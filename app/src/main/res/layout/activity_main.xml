@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.mysurfaceview.orderapp.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_name_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名："
+            android:alpha="0.5"
+            android:textColor="#339966"
+            android:textSize="24dp"/>
+        <EditText
+            android:id="@+id/edit_name_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:background="@mipmap/logininput"
+            android:text="login01"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/layout_name_main"
+        android:layout_alignLeft="@+id/layout_name_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密    码："
+            android:alpha="0.5"
+            android:textColor="#339966"
+            android:textSize="24dp"/>
+        <EditText
+            android:id="@+id/edit_password_main"
+            android:alpha="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/logininput"
+            android:text="111111"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_login_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@mipmap/ic_launcher"
+        android:text="登录"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignRight="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:layout_marginTop="15dp"
+        android:onClick="myClick"/>
+
+</RelativeLayout>

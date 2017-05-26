@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">OrderApp</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_base">BaseActivity</string>
+
+    <string name="title_activity_show">ShowActivity</string>
+
+    <string name="title_activity_change_paw">ChangePawActivity</string>
+
+    <string name="title_activity_more">MoreActivity</string>
+
+    <string name="title_activity_dishes">DishesActivity</string>
+
+    <string name="title_activity_pull_order">PullOrderActivity</string>
+</resources>
